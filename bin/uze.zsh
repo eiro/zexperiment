@@ -19,7 +19,7 @@ uze () {
     local __PACKAGE__=$1
     shift
     uze/_set "$@"
-    autoload -Uz $__PACKAGE__.zsh
+    autoload -z $__PACKAGE__.zsh
     $__PACKAGE__.zsh "${(@)UZE_ARGS}" || return
 
     local UZE_AS=${UZE_AS-}${UZE_AS+/}
