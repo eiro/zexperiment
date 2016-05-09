@@ -12,7 +12,6 @@ uze/_set () {
 }
 
 uze () {
-    setopt localoptions extendedglob
     declare -A UZE_TAGS
     declare -a UZE_EXPORT
     declare -a UZE_ARGS
