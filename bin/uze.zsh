@@ -40,7 +40,7 @@ Namespaces doesn't exist for real in zsh so
     thisLongJavaAlikeNS/hello () { print "i'm an insider" }
     thisLongJavaAlikeNS/greetings () { hello }
 
-will print "i'm out" when "i'm an insider" would be generaly more usefull.
+will print "i'm out" when "i'm an insider" would be generaly more useful.
 so you can write
 
     thisLongJavaAlikeNS/greetings () { thehello }  
