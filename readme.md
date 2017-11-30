@@ -1,3 +1,9 @@
+# deprecation
+
+this was an experiement ... the conclusion of it is there is too much magic in this hack and having a ns support should be built-in (like a :: modifier).
+
+this repo should be removed at some point.
+
 # expuze
 
 this is an attempt to make zsh more perlish in a way we can load modules, write
